@@ -1,0 +1,287 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 oct. 2020, 15:59:13
+    Author     : arielrubi
+*/
+body, html{
+
+}
+.logo{
+    width: 130px;
+}
+.formulario-principal-cuadro{
+    z-index: 2; 
+}
+.formulario-principal{
+    width: 60%;
+    background: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.6);
+}
+.formulario-principal h2{
+    font-weight: 300;
+    font-size: 22px;
+    text-transform: uppercase; 
+}
+.text-principal-segundo{
+    margin-top: -10px;
+}
+.formulario-principal p{ 
+    text-transform: uppercase;
+    font-size: 14px;
+} 
+.form-control{
+    font-size: 14px;
+    height: 35px;
+    border-radius: 0px;
+} 
+.btnSolicitar{
+    font-weight: 300;
+}  
+.principal{
+    height: 700px;
+    background-image: url("../img/fondo-principal.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+.bg-verde{
+    background: #50bd83!important;
+    background-color: #50bd83!important
+}
+.cuadro-central{  
+    height: auto;
+    z-index: 9;
+}
+.cuadro-central h4{ 
+    font-weight: 400;
+}
+.cuadro-central p{  
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.btnSolicitar:focus, .btnSolicitar:active, .btnSolicitar:hover
+{
+    outline: 0; 
+    box-shadow: none !important;
+}
+.formulario-final{
+    width: 90%;
+    background: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.6);
+}
+.formulario-final p{
+    text-transform: uppercase;
+}
+.formulario-final-cuadro{
+    z-index: 2;
+}
+.formulario-final h2{
+    font-weight: 300;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: justify;
+}
+.bg-texto-final, .bg-rojo{
+    background: #b92d20;
+    background-color: #b92d20;
+} 
+.img-redes{
+    width: 25px;
+}
+.bg-dark{
+    background: #000 !important;
+    background-color: #000 !important;
+}
+#emailHelp, #emailHelp1{
+    font-weight: bold;
+} 
+.texto-gracias {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+@media only screen and (max-width: 1380px){
+    .formulario-principal{ 
+        width: 70%;
+    } 
+}
+@media only screen and (max-width: 1250px){
+    .texto-gracias {
+        left: 25%;
+    }
+}
+@media only screen and (max-width: 1175px){
+    .formulario-principal{ 
+        width: 75%;
+    } 
+    .cuadro-central p{   
+        font-size: 12px;
+    }
+    .texto-gracias {
+        left: 20%;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .formulario-principal{ 
+        width: 85%;
+    } 
+    .cuadro-central p{   
+        font-size: 11px;
+    }
+    .cuadro-central h4 { 
+        font-size: 16px;
+        width: 80%;
+    }
+    .texto-gracias { 
+        left: 15%; 
+    } 
+
+}
+
+@media only screen and (max-width: 960px){
+    .formulario-principal{ 
+        width: 90%;
+    } 
+}
+@media only screen and (max-width: 860px){
+}
+@media only screen and (max-width: 768px){
+    .formulario-principal h2 { 
+        font-size: 17px;
+    }
+    .formulario-principal p { 
+        font-size: 12px;
+    }
+    .texto-gracias{ 
+        left: 10%; 
+        top: 40%; 
+        font-size: 2.2rem;
+    }
+    .cuadro-central h4 {
+        font-size: 14px;
+        text-align: justify;
+        width: 95%;
+        margin-top: -6%;
+        font-weight: 500;
+    }
+    .cuadro-central p { 
+        text-align: justify; 
+        padding-left: 0rem!important;
+        font-size: 10px; 
+    }
+}
+@media only screen and (max-width: 576px){
+    .texto-gracias{ 
+        left: 10%; 
+        top: 40%; 
+        font-size: 1.2rem;
+    }
+    .principal { 
+        background-size: 500px 100%;
+    }
+    .formulario-principal h2 { 
+        font-size: 15px;
+    }
+    .formulario-principal p { 
+        font-size: 12px; 
+    }
+    .cuadro-central h4 { 
+        width: 30%; 
+    }
+}
+@media (max-width: 380px){
+    .texto-gracias { 
+        font-size: 1.1rem;
+    }
+    .cuadro-central h4 { 
+        width: 35%; 
+    }
+}
+
+@media (max-width: 320px){
+    .formulario-principal h2 {
+        font-size: 13px;
+    }
+    .formulario-principal p {
+        font-size: 10px;
+    }
+    .texto-gracias { 
+        font-size: 0.9rem;
+    }
+    .cuadro-central h4 {
+        font-size: 16px; 
+        width: 40%; 
+    }
+    .cuadro-central p { 
+        font-size: 9px;
+    }
+}
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+    .texto-gracias {
+        left: 8%;
+    }
+    .formulario-principal h2 { 
+        font-size: 18px; 
+    }
+    .cuadro-central p {
+        font-size: 9px;
+        padding-left: 0rem!important;
+    }
+    .cuadro-central h4 { 
+        margin-top: -15% !important;
+        width: 100%;
+    } 
+}
+@media only screen and (max-width: 760px) and (orientation: landscape) {
+    .formulario-principal h2 { 
+        font-size: 16px; 
+    }
+    .formulario-principal p { 
+        font-size: 12px;
+    }
+    .cuadro-central p {
+        font-size: 8px;
+    }
+    .cuadro-central h4 {
+        font-size: 14px; 
+        width: 100%;
+        margin-top: 0;
+    }
+    /*.fondo-final {
+        height: 500px;
+    } */
+}
+@media only screen and (max-width: 680px) and (orientation: landscape) {
+    .cuadro-central h4 {
+        font-size: 12px; 
+    }
+    .formulario-principal h2 {
+        font-size: 14px;
+    }
+    .formulario-principal p { 
+        font-size: 10px;
+    }
+    .texto-gracias {
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 570px) and (orientation: landscape) {
+    .cuadro-central h4 {
+        margin-top: -8% !important;
+        font-size: 16px;
+    }
+    .texto-gracias {
+        font-size: 1.7rem;
+    }
+    .principal {
+        background-size: 600px 100%;
+    } 
+    .cuadro-central p {
+        font-size: 10px;
+    } 
+}
