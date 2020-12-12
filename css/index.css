@@ -11,7 +11,10 @@ body, html{
 
 }
 .logo{
-    width: 130px;
+    width: 170px;
+}
+b{
+    font-weight: bold;
 }
 .formulario-principal-cuadro{
     z-index: 2; 
@@ -26,6 +29,18 @@ body, html{
     font-size: 22px;
     text-transform: uppercase; 
 }
+.formulario-principal p.primer-texto{  
+    background: #6dbe49!important;
+    width: 300px;
+    color: #fff;
+    font-size: 16px; 
+} 
+.logo-principal{   
+    position: absolute;
+    left: 70px; 
+    width: 170px; 
+    bottom: 0;
+} 
 .text-principal-segundo{
     margin-top: -10px;
 }
@@ -42,12 +57,16 @@ body, html{
     font-weight: 300;
 }  
 .principal{
-    height: 700px;
+    height: 800px;
     background-image: url("../img/fondo-principal.png");
     background-repeat: no-repeat;
     background-size: 100% 100%; 
 }
 .bg-verde{
+    background: #6dbe49!important;
+    background-color: #6dbe49!important
+}
+.bg-verde-oscuro{
     background: #50bd83!important;
     background-color: #50bd83!important
 }
@@ -62,7 +81,6 @@ body, html{
     text-transform: uppercase;
     font-size: 14px;
 }
-
 .btnSolicitar:focus, .btnSolicitar:active, .btnSolicitar:hover
 {
     outline: 0; 
@@ -119,13 +137,35 @@ body, html{
     margin-top: -15px;
     font-weight: 400;
 }
+.imagen-contexto{
+    width: 550px;
+}
+.fondo-con-img-texto{
+    background: #6dbe49!important;
+    background-color: #6dbe49!important;
+}
+.img-iconos{
+    width: 100px;
+}
+.cuadro-ofrecemos{ 
+    width: 190px; 
+}  
+.cuadro-ofrecemos label b{
+    text-transform: uppercase; 
+    font-weight: 500;
+}  
 @media only screen and (max-width: 1380px){
     .formulario-principal{ 
         width: 70%;
     } 
+    .cuadro-ofrecemos{ 
+        width: 150px; 
+    }
 }
-@media only screen and (max-width: 1250px){
-  
+@media only screen and (max-width: 1275px){
+    .cuadro-ofrecemos label b{
+        font-size: 15px;
+    }
 }
 @media only screen and (max-width: 1175px){
     .formulario-principal{ 
@@ -134,6 +174,9 @@ body, html{
     .cuadro-central p{   
         font-size: 12px;
     } 
+    .cuadro-ofrecemos {
+        width: 130px;
+    }
 }
 
 @media only screen and (max-width: 1080px){
@@ -147,6 +190,9 @@ body, html{
         font-size: 16px;
         width: 80%;
     } 
+    .cuadro-ofrecemos {
+        width: 120px;
+    }
 }
 
 @media only screen and (max-width: 960px){
@@ -157,6 +203,12 @@ body, html{
 @media only screen and (max-width: 860px){
 }
 @media only screen and (max-width: 768px){
+    .formulario-principal p.primer-texto { 
+        width: 260px;
+    }
+    .imagen-contexto{
+        width: 350px;
+    }
     .formulario-principal h2 { 
         font-size: 17px;
     }
@@ -183,9 +235,22 @@ body, html{
         width: 100%;
         padding: 0;
     }
+    .cuadro-ofrecemos label b {
+        font-size: 14px;
+    }
+    .cuadro-ofrecemos {
+        width: 130px;
+    }
+    .fondo-con-img-texto {
+        background: #26693a!important;
+        background-color: #26693a!important;
+    }
+    .principal{
+        height: 920px;
+    }
 }
 @media only screen and (max-width: 576px){
- 
+
     .principal { 
         background-size: 500px 100%;
     }
@@ -203,6 +268,9 @@ body, html{
     .cuadro-central h4 { 
         width: 35%; 
     }
+    .cuadro-ofrecemos {
+        width: 150px;
+    } 
 }
 
 @media (max-width: 320px){
@@ -219,6 +287,12 @@ body, html{
     .cuadro-central p { 
         font-size: 9px;
     }
+    .imagen-contexto {
+        width: 260px;
+    }
+    .cuadro-ofrecemos {
+        width: 130px;
+    }
 }
 @media only screen and (max-width: 900px) and (orientation: landscape) {
     .formulario-principal h2 { 
@@ -231,9 +305,24 @@ body, html{
     .cuadro-central h4 { 
         margin-top: -15% !important;
         width: 100%;
-    } 
+    }
+    .cuadro-ofrecemos {
+        width: 105px;
+    }
+    .cuadro-ofrecemos label b {
+        font-size: 13px;
+    }
 }
 @media only screen and (max-width: 760px) and (orientation: landscape) {
+    .cuadro-ofrecemos {
+        width: 155px;
+    }
+    .cuadro-ofrecemos label b {
+        font-size: 13px;
+    }
+    .img-iconos {
+        width: 100px;
+    }
     .formulario-principal h2 { 
         font-size: 16px; 
     }
@@ -265,6 +354,10 @@ body, html{
     .formulario-principal p { 
         font-size: 10px;
     } 
+    .formulario-principal p.primer-texto {
+        width: 225px;
+        font-size: 12px;
+    }
 }
 @media only screen and (max-width: 570px) and (orientation: landscape) {
     .cuadro-central h4 {
@@ -277,4 +370,10 @@ body, html{
     .cuadro-central p {
         font-size: 10px;
     } 
+    .img-iconos {
+        width: 100px;
+    }
+    .cuadro-ofrecemos {
+        width: 150px;
+    }
 }
